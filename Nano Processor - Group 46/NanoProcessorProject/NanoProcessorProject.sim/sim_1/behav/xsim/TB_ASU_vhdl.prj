@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../NanoProcessorProject.srcs/sources_1/new/Add_Sub_Unit.vhd" \
+"../../../../NanoProcessorProject.srcs/sources_1/new/FA.vhd" \
+"../../../../NanoProcessorProject.srcs/sources_1/new/HA.vhd" \
+"../../../../NanoProcessorProject.srcs/sources_1/new/RCA_4.vhd" \
+"../../../../NanoProcessorProject.srcs/sim_1/new/TB_ASU.vhd" \
+
+# Do not sort compile order
+nosort

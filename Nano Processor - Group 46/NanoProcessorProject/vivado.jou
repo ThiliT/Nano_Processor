@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jun 11 14:20:01 2023
+# Process ID: 17364
+# Current directory: C:/Users/Sandali Fernando/Desktop/nano/NanoProcessorProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8104 C:\Users\Sandali Fernando\Desktop\nano\NanoProcessorProject\NanoProcessorProject.xpr
+# Log file: C:/Users/Sandali Fernando/Desktop/nano/NanoProcessorProject/vivado.log
+# Journal file: C:/Users/Sandali Fernando/Desktop/nano/NanoProcessorProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Sandali Fernando/Desktop/nano/NanoProcessorProject/NanoProcessorProject.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
